@@ -1,0 +1,26 @@
+:root {
+    --primaryColor: #fff;
+    --secondaryColor: #7043E3;
+    /* --secondaryColor: #f40752; */
+    /* --secondaryColor: #4c081e; */
+    /* --secondaryColor: #121827; */
+    --tertiaryColor1: #0a1422;
+    --tertiaryColor2: #002441;
+    --tertiaryColor3: #e5e7eb;
+
+    /* --btnhover: var(--secondaryColor); */
+
+    --trueColor: #00ffb3;
+    --falseColor: #e84855;
+
+    --grpurpleColor: linear-gradient(90deg, #6238D4, #AE96ED);
+    --gryellowColor: linear-gradient(90deg, #7A4B00, #EE9800);
+    --grblueColor: linear-gradient(90deg, #091970, #007FFF);
+
+    --textColor0: #fff;
+    --textColor1: #0a1422;
+    --textColor2: #7043E3;
+    --textColor3: #00D3FF;
+    --textColor4: #928BA6;
+    --textColor5: #002441;
+}
