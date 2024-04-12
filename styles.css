@@ -87,7 +87,6 @@ header {
     color: var(--textColor1);
 }
 
-.register-box {}
 
 .register-box a {
     background: var(--secondaryColor);
@@ -548,9 +547,7 @@ header {
     transform-origin: center;
 }
 
-.content-card .text-box{
-    /* background: red; */
-}
+
 
 .content-card .text-box p{
     font-size: 14px;
@@ -578,13 +575,14 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    background: var(--tertiaryColor2);
-    background-image: url('image/course-hero-grid.svg');
+    /* background: var(--tertiaryColor2); */
+    /* background-image: url('image/course-hero-grid.svg'); */
 }
 
 .test-mon-content{
     max-width: 1240px;
     display: flex;
+    
     flex-direction: column;
     justify-content: center;
     flex: 1;
@@ -596,7 +594,7 @@ header {
     display: flex;
     align-items: center;
     margin: 1rem;
-    color: var(--textColor0);
+    color: var(--textColor1);
     font-size: 2rem;
 }
 
@@ -664,9 +662,7 @@ header {
     overflow: hidden;
 }
 
-.test-mon-card .content p{
-    /* width: 280px; */
-}
+
 
 
 .test-mon-card .user-detail{
