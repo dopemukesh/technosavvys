@@ -34,10 +34,35 @@
                     <a href="#">Register Now</a>
                 </div>
 
-                <div class="menu-icon">
+                <div class="menu-icon" onclick="toggleSidebar()">
                     <i></i>
                     <i></i>
                     <i></i>
+                </div>
+                <div class="sidebar" id="sidebar">
+                    <div class="close-icon" onclick="toggleSidebar()">
+                        <img src="icons/close-icon.svg" alt="">
+                    </div>
+                    <div class="user-account">
+                        <div class="user-img">
+                            <img src="image/user-profile-pic.webp" alt="">
+                        </div>
+                        <div class="user-name" id="user-name">
+                            <p>Mukesh Yadav</p>
+                        </div>
+                    </div>
+                    <div class="action-btn">
+                        <a href="#" class="login">Login</a>
+                        <a href="#" class="register">Register</a>
+                    </div>
+                    <div class="links">
+                        <a href="#" class="active">Home</a>
+                        <a href="#courses">Courses</a>
+                        <a href="#">Coding</a>
+                        <a href="#">Job Seekers</a>
+                        <a href="#footer">Contact Us</a>
+                        <a href="#footer">About Us</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -414,5 +439,5 @@
         </section>
     </footer>
 </body>
-
+<script src="script.js"></script>
 </html>
