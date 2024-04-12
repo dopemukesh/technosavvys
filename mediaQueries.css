@@ -87,8 +87,9 @@
     }
 
     .footer-content .logo-container{
-        grid-template-areas: 2;
+        grid-row: 1 / span 5;
         /* background: red; */
+        align-self: center;
     }
 }
 
@@ -187,7 +188,14 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
+        place-items: center;        
     }
+
+    .footer-nav .links{
+        text-align: center;
+        place-items: center;
+    }
+    
 
 }
 
