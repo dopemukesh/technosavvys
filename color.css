@@ -7,6 +7,8 @@
     --tertiaryColor1: #0a1422;
     --tertiaryColor2: #002441;
     --tertiaryColor3: #e5e7eb;
+    --tertiaryColor4: #F5F5F7;
+    --tertiaryColor5: #FDE167;
 
     /* --btnhover: var(--secondaryColor); */
 
@@ -15,6 +17,7 @@
 
     --grpurpleColor: linear-gradient(90deg, #6238D4, #AE96ED);
     --gryellowColor: linear-gradient(90deg, #7A4B00, #EE9800);
+    --gryellowColor2: linear-gradient(45deg, #ffb753, #FDE167);
     --grblueColor: linear-gradient(90deg, #091970, #007FFF);
 
     --textColor0: #fff;
