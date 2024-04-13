@@ -110,13 +110,13 @@ header {
     gap: .2rem;
     display: none;
     cursor: pointer;
-    z-index: 999;
+    z-index: 98;
 }
 
 .close-icon{
     width: 32px;
     height: 32px;
-    background: #7043ff2c;
+    background: #7043ff;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -125,22 +125,23 @@ header {
     gap: .2rem;
     /* display: none; */
     cursor: pointer;
-    z-index: 999;
+    z-index: 99;
 
     position: absolute;
     right: 0;
+    top: 1.4rem;
 }
 
 
 .sidebar {
     position: fixed;
     top: 0;
-    left: -20px; /* Initially hidden */
-    width: 250px;
+    left: -300px; /* Initially hidden */
+    width: 300px;
     height: 100%;
     background-color: #fff;
-    transition: all 1s ease-in-out;
-    padding: 0 1rem;
+    transition: all .5s ease-in-out;
+    padding: 10px 1rem;
     z-index: 99;
 }
 
