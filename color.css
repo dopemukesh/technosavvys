@@ -1,10 +1,10 @@
 :root {
     --primaryColor: #fff;
-    --secondaryColor: #7043E3;
+    --secondaryColor: #6e44ff;
     /* --secondaryColor: #f40752; */
     /* --secondaryColor: #4c081e; */
     /* --secondaryColor: #121827; */
-    --tertiaryColor1: #0a1422;
+    --tertiaryColor1: #212529;
     --tertiaryColor2: #002441;
     --tertiaryColor3: #e5e7eb;
     --tertiaryColor4: #F5F5F7;
@@ -21,8 +21,8 @@
     --grblueColor: linear-gradient(90deg, #091970, #007FFF);
 
     --textColor0: #fff;
-    --textColor1: #0a1422;
-    --textColor2: #7043E3;
+    --textColor1: #212529;
+    --textColor2: #6e44ff;
     --textColor3: #00D3FF;
     --textColor4: #928BA6;
     --textColor5: #002441;
