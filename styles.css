@@ -790,12 +790,10 @@ header {
 @keyframes move {
     0% {
         transform: translateX(30%);
-        /* Start position: move content 100% to the right */
     }
 
     100% {
         transform: translateX(-30%);
-        /* End position: move content 100% to the left */
     }
 }
 
@@ -906,7 +904,7 @@ header {
 }
 
 .logo-container .logo-box img {
-    width: 60%;
+    height: 100%;
 }
 
 
@@ -918,6 +916,7 @@ header {
 .footer-nav h1,
 .contact h1,
 .contact .social-links {
+    font-size: 1rem;
     margin: 1rem 0;
     color: var(--textColor2);
 }
@@ -928,19 +927,20 @@ header {
 }
 
 .footer-nav .links a {
+    font-size: 14px;
     color: var(--textColor1);
     width: fit-content;
     padding: .2rem;
-    font-weight: 500;
+    transition: all .1s ease-in;
 }
 
 .footer-nav .links a:hover {
-    /* background: #000; */
     color: var(--textColor2);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .contact {
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -950,19 +950,3 @@ header {
 
 .contact a {}
 
-
-
-
-
-
-
-
-
-/* .draggable {
-    position: absolute;
-    background-color: #ccc;
-    width: 44px;
-    height: 44px;
-    cursor: grab;
-    border-radius: 50%;
-  } */
